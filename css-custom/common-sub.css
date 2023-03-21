@@ -1,0 +1,79 @@
+body {
+  margin-right: 0.5%;
+  float: right;
+  width: 85%;
+}
+/* NAVBAR VERTICAL FIXED */
+.nav__v-main {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 70px;
+  left:1%;
+  bottom: 5px;
+  width: 13.5%;
+  max-width: 100%;
+  background-color: rgb(226, 224, 224);
+  line-height: 35px;
+  padding-left: 10px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+.drop-content-none {
+  list-style-type:disc;
+  list-style-position:inside;
+  padding-left: 0.5rem;
+  margin-bottom: 0px;
+  border-bottom: 1px solid grey;
+  background-color: rgb(226, 224, 224);
+  font-family: Roboto-Light;
+}
+.input__drop-cuasat:checked~.drop__content-cuasat {
+  display: block;
+}
+.input__drop-cuanhom:checked~.drop__content-cuanhom {
+  display: block;
+}
+.input__drop-cuacuon:checked~.drop__content-cuacuon {
+  display: block;
+}
+.input__drop-lancan:checked~.drop__content-lancan {
+  display: block;
+}
+
+@media only screen and (max-width:992px) {
+  .nav__v-main {
+    display: none;
+  }
+  body {
+    margin-right: none;
+    float: none;
+    width: 98%;
+  }
+}
+/* GRID PRODUCTS */
+.text-ourproduct-1 {
+  margin-top: 80px;
+  color: rgb(68, 68, 68);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto-Black;
+}
+.text-ourproduct-2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(68, 68, 68);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto-Black;
+}
+.a-viewall {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Roboto-Bold;
+}

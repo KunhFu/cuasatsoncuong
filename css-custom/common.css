@@ -1,0 +1,206 @@
+/* GENERAL */
+html {
+  height: -webket-fill-available;
+}
+body {
+    box-sizing: bordesr-box;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: -webket-fill-available;
+  }
+.general-para {
+    font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* NAVBAR */
+.nav__main-custom {
+  padding: 0 2vw;
+  width: 98%;
+  margin-left: 1%;
+  border-bottom: solid!important;
+  border-color: rgb(227, 224, 224)!important;
+  border-width: 2px!important;
+  }
+  /* navbar left */
+  .nav__icon-logo  {
+    width: 70px;
+    margin: 0;
+    padding: 0;
+  }
+  /* navbar middle left */
+  @media only screen and (min-width:992px) {
+  .nav__middleleft-align-custom {
+    margin: auto;
+  }
+  .nav__middleleft-fontstyle-custom {
+    color: rgb(85, 85, 109)!important;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nav__middleleft-fontstyle-custom:hover {
+    opacity: 0.7;
+  }
+  }
+  .nav__overflow-custom{
+    height: 40vh;
+    overflow: auto;
+    width: 222px;
+    padding-left: 15px;
+    line-height: 25px;
+  }
+  .nav__overflow-custom:hover {
+    display: block;
+  }
+  /* include use for common-sub.ss */
+  .nav__v-sub {
+    border-top: 1px solid white;
+    font-family: Roboto-Regular;
+  }
+  .nav__v-sub:hover {
+    font-family:Roboto-Medium;
+    color: #2559c2;
+  }
+  .input_drop {
+    display: none;
+  }
+  .nav__vertical-maincontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  .fa-sort-down {
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  .drop-content {
+    display: none;
+    list-style-type:disc;
+    list-style-position:inside;
+    padding-left: 0.5rem;
+    margin-bottom: 0px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(226, 224, 224);
+    font-family: Roboto-Light;
+  }
+  /* include use for common-sub.ss */
+  .input__drop-cuasat-nav:checked~.drop__content-cuasat-nav {
+    display: block;
+  }
+  .input__drop-cuanhom-nav:checked~.drop__content-cuanhom-nav {
+    display: block;
+  }
+  .input__drop-cuacuon-nav:checked~.drop__content-cuacuon-nav {
+    display: block;
+  }
+  .input__drop-lancan-nav:checked~.drop__content-lancan-nav {
+    display: block;
+  }
+
+
+  /* navbar middle right */
+  .nav__icon-search-main {
+    background-color: rgb(235, 240, 243);
+    border-radius: 100px;
+    border-color: rgb(193, 193, 197);
+    margin-right:3vw;
+    padding: 0 6px;
+  }
+  .nav__icon-search-main:hover {
+    background-color:rgb(207, 205, 205);
+    border-color: rgb(207, 205, 205);
+  }
+  .nav__icon-search-sub {
+    height: 25px;
+  }
+  /* navbar right */
+  .nav__right-phonenumber {
+    color: rgb(128, 67, 17);
+    font-weight: bold;
+    background-color: rgb(223, 220, 220);
+    border-radius: 20px;
+    padding: 3px 10px;
+  }
+  .nav__right-phonenumber:hover {
+    opacity: 0.7;
+  }
+  .nav__icon-callphone {
+    height: 25px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+  }
+
+
+
+/* GRID-OUR PRODUCT-CUSTOM */
+.grid__main-custom {
+  margin: auto;
+  max-width: 98%;
+}
+.grid__sub-custom {
+  padding: 0 0.5rem;
+  position: relative;
+}
+.body-grid-sub {
+  margin-bottom: 12px;
+  margin: 0px;
+}
+.img-grid {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  display: block
+}
+.gridcontent {
+  padding-top: 5px;
+  font-size: 20px;
+  font-family:Roboto-Regular;
+  color:rgb(85, 84, 84);
+  margin-bottom: 0px;
+
+}
+.gridcontent-sub {
+  font-size: 15px;
+  font-family:Roboto-Thin;
+  margin-bottom: 25px;
+}
+.gridcontent-other {
+  font-size: 16px;
+  margin-bottom: 0px;
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  background-color: rgb(209, 206, 206);
+  font-family:Roboto-Medium;
+  position: absolute;
+  left: 8px;
+  bottom: 0;
+  color: black;
+  text-decoration: none;
+}
+.gridcontent-other:hover {
+  opacity: 0.8;
+}
+
+
+/* FOOTER */
+.footer-custom1 {
+  margin-right: 50px;
+}
+.fa-facebook, .fa-telegram,.fa-square-instagram  {
+  font-size: 25px;
+}
+.fa-facebook {
+  color: #385898;
+}
+.fa-telegram {
+  color: #3366cc;
+}
+.fa-square-instagram {
+  color: #e33042;
+}
