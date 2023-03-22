@@ -88,6 +88,7 @@ a {
     border-bottom: 1px solid grey;
     background-color: rgb(226, 224, 224);
     font-family: Roboto-Light;
+    line-height: 30px;
   }
   /* include use for common-sub.ss */
   .input__drop-cuasat-nav:checked~.drop__content-cuasat-nav {
