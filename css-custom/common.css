@@ -130,7 +130,12 @@ a {
   .nav__right-phonenumber:hover {
     opacity: 0.7;
   }
-
+  @media only screen and (max-width:991px) {
+    .fa-phone-volume {
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+  }
 /* GRID-OUR PRODUCT-CUSTOM */
 .grid__main-custom {
   margin: auto;
