@@ -106,19 +106,18 @@ a {
 
   /* navbar middle right */
   .nav__icon-search-main {
-    background-color: rgb(235, 240, 243);
-    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 200px;
     border-color: rgb(193, 193, 197);
     margin-right:3vw;
-    padding: 0 6px;
+    color: rgb(73, 73, 73);
+    padding: 0px 10px;
   }
   .nav__icon-search-main:hover {
     background-color:rgb(207, 205, 205);
     border-color: rgb(207, 205, 205);
   }
-  .nav__icon-search-sub {
-    height: 25px;
-  }
+
   /* navbar right */
   .nav__right-phonenumber {
     color: rgb(128, 67, 17);
