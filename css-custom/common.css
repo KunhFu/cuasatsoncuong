@@ -130,13 +130,6 @@ a {
   .nav__right-phonenumber:hover {
     opacity: 0.7;
   }
-  .nav__icon-callphone {
-    height: 25px;
-    padding-right: 3px;
-    padding-bottom: 3px;
-  }
-
-
 
 /* GRID-OUR PRODUCT-CUSTOM */
 .grid__main-custom {
