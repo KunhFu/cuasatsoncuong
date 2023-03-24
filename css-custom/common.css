@@ -56,6 +56,19 @@ a {
   .nav__overflow-custom:hover {
     display: block;
   }
+  .nav__overflow-custom::-webkit-scrollbar {
+    width: 7px;
+  }
+  .nav__overflow-custom::-webkit-scrollbar-track {
+    background-color: rgb(231, 228, 228);
+  }
+  .nav__overflow-custom::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 190, 190);
+  }
+  .nav__overflow-custom::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(168, 168, 168);
+  }
+
   /* include use for common-sub.ss */
   .nav__v-sub {
     border-top: 1px solid white;
