@@ -215,3 +215,106 @@ a {
 .fa-square-instagram {
   color: #e33042;
 }
+
+/* TEST SEARCHBAR START */
+
+header nav .end_bx .search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #b16f6f;
+}
+
+header nav .end_bx .search input {
+  padding: 3px 0px 3px 8px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #ad8b8b;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+  width: 0px;
+}
+
+header nav .end_bx .search i {
+  color: rgba(133, 126, 126, 0.7);
+  font-size: 13px;
+  cursor: pointer;
+  transition: .4s linear;
+}
+
+header nav .end_bx .search i:hover {
+  color: #b63535;
+}
+
+header nav .end_bx .search .search_bx2 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  /* border: 1px solid #fff; */
+  top: 35px;
+  left: -10px;
+  background: rgba(121, 91, 91, 0.3);
+  border-radius: 10px;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s linear;
+}
+
+header nav .end_bx .search .search_bx2::-webkit-scrollbar {
+  width: 7px;
+  background: rgb(184, 184, 184, .3);
+  border-radius: 20px;
+}
+
+header nav .end_bx .search .search_bx2::-webkit-scrollbar-thumb {
+  background: rgb(184, 184, 184, .7);
+  border-radius: 20px;
+}
+
+header nav .end_bx .search .search_bx2 a {
+  text-decoration: none;
+  color: #9e8d8d;
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid #fff; */
+  display: flex;
+  align-items: center;
+  transition: .3s linear;
+}
+
+header nav .end_bx .search .search_bx2 a:hover {
+  background: rgb(184, 184, 184, .6);
+}
+
+header nav .end_bx .search .search_bx2 a img {
+  width: 30px;
+  height: 45px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+header nav .end_bx .search .search_bx2 a .content2 {
+  color: #423d3d;
+}
+
+header nav .end_bx .search .search_bx2 a .content2 h6 {
+  font-size: 13px;
+}
+
+header nav .end_bx .search .search_bx2 a .content2 p {
+  color: rgba(83, 79, 79, 0.7);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+
+/* javascript classes start  */
+
+header nav .end_bx .search .search_input {
+  width: 180px;
+}
+
+/* TEST SEARCHBAR END */
