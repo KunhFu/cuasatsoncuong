@@ -47,11 +47,11 @@ a {
   }
   }
   .nav__overflow-custom{
-    height: 40vh;
+    height: 60vh;
     overflow: auto;
     width: 222px;
     padding-left: 15px;
-    line-height: 25px;
+    line-height: 10px;
   }
   .nav__overflow-custom:hover {
     display: block;
@@ -75,8 +75,7 @@ a {
     font-family: Roboto-Regular;
   }
   .nav__v-sub:hover {
-    font-family:Roboto-Medium;
-    color: #2559c2;
+    font-family:Roboto-Black;
   }
   .input_drop {
     display: none;
@@ -102,7 +101,14 @@ a {
     background-color: rgb(226, 224, 224);
     font-family: Roboto-Light;
     line-height: 30px;
+    color: rgb(39, 42, 211);
   }
+  .drop-content:hover {
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #365496;
+  }
+
   /* include use for common-sub.ss */
   .input__drop-cuasat-nav:checked~.drop__content-cuasat-nav {
     display: block;

@@ -1,7 +1,7 @@
 body {
   margin-right: 0.5%;
   float: right;
-  width: 85%;
+  width: 81%;
 }
 /* NAVBAR VERTICAL FIXED */
 .nav__v-main {
@@ -11,7 +11,7 @@ body {
   top: 70px;
   left:1%;
   bottom: 5px;
-  width: 13.5%;
+  width: 17.4%;
   max-width: 100%;
   background-color: rgb(226, 224, 224);
   line-height: 35px;
@@ -27,6 +27,12 @@ body {
   border-bottom: 1px solid grey;
   background-color: rgb(226, 224, 224);
   font-family: Roboto-Light;
+  color: rgb(39, 42, 211);
+}
+.drop-content-none:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #365496;
 }
 .input__drop-cuasat:checked~.drop__content-cuasat {
   display: block;
