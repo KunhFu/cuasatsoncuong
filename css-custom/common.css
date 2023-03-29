@@ -113,6 +113,12 @@ a {
   .input__drop-cuacuon-nav:checked~.drop__content-cuacuon-nav {
     display: block;
   }
+  .input__drop-cuakeo-nav:checked~.drop__content-cuakeo-nav {
+    display: block;
+  }
+  .input__drop-cauthang-nav:checked~.drop__content-cauthang-nav {
+    display: block;
+  }
   .input__drop-lancan-nav:checked~.drop__content-lancan-nav {
     display: block;
   }
