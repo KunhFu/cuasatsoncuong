@@ -37,7 +37,16 @@ body {
 .input__drop-cuacuon:checked~.drop__content-cuacuon {
   display: block;
 }
+.input__drop-cuakeo:checked~.drop__content-cuakeo {
+  display: block;
+}
+.input__drop-cauthang:checked~.drop__content-cauthang {
+  display: block;
+}
 .input__drop-lancan:checked~.drop__content-lancan {
+  display: block;
+}
+.input__drop-maiche:checked~.drop__content-maiche {
   display: block;
 }
 

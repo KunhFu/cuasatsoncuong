@@ -122,6 +122,9 @@ a {
   .input__drop-lancan-nav:checked~.drop__content-lancan-nav {
     display: block;
   }
+  .input__drop-maiche-nav:checked~.drop__content-maiche-nav {
+    display: block;
+  }
 
 
   /* navbar middle right */
