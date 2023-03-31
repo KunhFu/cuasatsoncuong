@@ -19,6 +19,14 @@ body {
   overflow-y: auto;
   border-radius: 5px;
 }
+.nav__v-danhmucsanpham {
+  color: #ffffff;
+  background-color: rgba(36, 35, 75, 0.782);
+  padding: 10px 10px 10px 10px;
+  margin: 5px 10px 5px 0px;
+  border-radius: 5px;
+  font-size: 130%;
+}
 .drop-content-none {
   list-style-type:disc;
   list-style-position:inside;
